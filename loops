@@ -1,0 +1,16 @@
+for i in range(2,24,2):
+     print( i )
+#print 10 20 30 40 using loops
+     print()
+for i in range(10,50,10):
+     print(i)
+
+for i in range(10,-1,-1):
+  print(i)
+
+for i in range(3):
+    print("Hello")
+    for i in range(5, 0, -1):
+      print(i)
+    print("Blast Off!")
+
