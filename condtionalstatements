@@ -1,0 +1,21 @@
+
+age = 12
+if age >= 18:
+    print("he will go to swim")
+else:
+    print("he will not go to swim")
+
+
+age=12 
+
+if age >= 18:
+    print("he is eligible to vote")
+else:
+    print("he is not able to vote")
+
+    ten=2
+
+if ten>=21:
+    print ("is an adult")
+else:
+    print("is not a adult")
