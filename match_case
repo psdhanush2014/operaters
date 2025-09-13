@@ -1,0 +1,18 @@
+
+favoritefruit = input("enter your favorite fruit between mango kiwi dragon fruit apple and sugar apple : ")
+
+match favoritefruit:
+
+ case "mango":
+     print("mango is not actualy healthy to eat everday")
+ case "kiwi":
+     print("kiwi kiwi ninja is one of the most popular game developers")
+ case "dragon fruit":
+     print("dragon fruit  are not actualy fruits made from dragons")
+ case "apple":
+     print("apple and apple a day keeps the docter away")
+ case "sugar apple":
+      print("it tatse exatcly like an aplle but with more natural sugar ")
+ 
+ case _:
+     print(" that fruit is not in the code pls try any other fruit")
