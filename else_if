@@ -1,0 +1,41 @@
+#2. 🧁 Favorite Dessert
+#sk the user for their favorite dessert.
+ #If it’s "ice cream", print "Yum! That’s my favorite too!"
+ #Otherwise, print "Nice choice!"  
+ 
+dessert = input("enter the fav dessert")
+if dessert == 'icecream':
+    print("icecream is really good")
+else: 
+    print("nice")
+
+#3.
+time = input("enter the time it is=")
+
+if time >=8:
+    print("too early goo back to sleep")
+else:
+    print("time to get up")
+#4.
+Pettype = input("enter wat kind of pet u have dog or cat : ")
+
+match Pettype:
+
+ case 'dog':
+       print("woof")
+ case 'cat':
+       print("meow")
+
+ case _:
+      print("cool pet")
+
+#5.
+Schoolday = input("enter what day it is ")
+
+if Schoolday ==monday:
+    print("its pack your school bags")
+else:
+    print("its the week end ")
+
+    ("another school day")
+
