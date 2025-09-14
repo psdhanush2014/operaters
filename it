@@ -1,0 +1,28 @@
+import random
+
+# List of fruits
+fruits = ["apple", "banana", "mango", "orange", "grape", "pineapple", "pear", "peach"]
+
+print("🎮 Welcome to Guess the Fruit! (Press Ctrl+C to quit anytime)\n")
+
+# Outer loop → keeps the game running forever
+while True:
+    secret = random.choice(fruits)   # computer picks a new fruit each round
+    attempts = 0
+
+    print("I have chosen a fruit. Try to guess it!")
+
+    # Inner loop → keeps asking until the correct guess
+    while True:
+        print("\nChoices:", fruits)
+        guess = input("Your guess: ").lower()
+        attempts += 1
+
+        if guess == secret:
+            print(f"🎉 Correct! The fruit was {secret}. You got it in {attempts} tries.\n")
+            print("🔄 Starting a new round...\n")
+            break   # break inner loop → start a new round
+        elif guess not in fruits:
+            print("⚠️ That fruit is not in the list, try again.")
+        else:
+            print("❌ Wrong guess, try again!")
